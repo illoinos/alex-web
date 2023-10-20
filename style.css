@@ -1,0 +1,112 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.top{
+    background-color: rgb(255, 255, 255) ;
+    height: 60px;
+    justify-content: space-between;
+        display: flex;
+        align-items: center;
+}
+.left{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    flex-direction: column ;
+    display: flex;
+    padding-left: 10px;
+}   
+.right{
+    background-color: rgb(255, 255, 255);
+    flex: 6;    
+ }
+.container{
+    display: flex;
+    height: 95vh;
+    display: flex;
+}
+.title{
+    font-size: 18px;
+}
+.video{
+    width: 90%;
+    flex: 1;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+        .videos {
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+.images {
+    margin-right:7px;
+    display: flex; 
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+}
+.images:hover{
+    background-color: rgb(228, 228, 228);
+    transition: 0.3s;
+}
+.size{
+    width: 90px;
+}
+.account{
+    width: 30px;
+    
+}
+.search{
+    width: 25px;
+}
+
+.all p {
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.all p:hover{
+    background-color: rgb(228, 226, 226);
+    
+}
+
+#Black{
+    background-color: black;
+    color: #f2f2f2;
+}
+.images div {
+    flex: 1;
+}
+.images p{
+    flex: 3;
+}
+.account p{
+    text-decoration: none;
+    
+}
+.sign-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    color: blue     ;
+}
+body{
+    transition: 0.4s ease-in;
+}
+
+
+/* Screen width  < 600px */
+@media screen and (max-width: 480px){
+
+
+
+}
